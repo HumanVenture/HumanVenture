@@ -1,16 +1,3 @@
-<style>
-	/*.navbar-header {
-		margin-top: 50px;
-	}
-
-	.navbar-brand {
-		height: auto;
-	}
-
-	.padding {
-		margin-bottom: 20px;
-	}*/
-</style>
 <header class="main-header">
 	<nav class="navbar navbar-default navbar-static-top" role="navigation">
 		<div class="container">
