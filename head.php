@@ -34,86 +34,8 @@
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 
 	<style>
-		#main-footer {
-			border-top: 4px solid #005e8a;
-		}
-
-		.main-header {
-			background-image: url("<?php bloginfo('template_url'); ?>/header_background.png");
-			background-repeat: no-repeat;
-			background-position: center; 
-			background-size: cover;
-		}
-
-		.main-header .navbar {
-			background-color: transparent;
-			border-color: transparent;
-		}
-
-		.main-header .navbar {
-			margin-bottom: 0px;
-			border: none;
-		}
-
-		.main-header .navbar-header {
-			color: #ffffff;
-		}
-
-		.main-header .navbar-header .tagline {
-			font-size: 13pt;
-			text-transform: uppercase;
-		}
-
-		.main-header .navbar-header .info {
-			font-size: 10pt;
-		}
-
-		.main-header .navbar-header .btn {
-			background-color: transparent;
-			border-color: #ffffff;
-			text-transform: uppercase;
-		}
-
-		.nav.nav-justified > li > a {
-			color: #4c4949;
-			background-color: #ffffff;
-			font-size: 14pt;
-			text-transform: uppercase;
-		}
-
-		.nav.nav-justified > li > ul > li > a {
-			font-size: 11pt;
-		}
-
-		:not(.feed) > .row:first-child > [class*='col-'] > .thumbnail:first-child {
-			border: 1px hidden;
-		}
-
-		.row:first-child > [class*='col-'] > .thumbnail:first-child {
-			margin-top: 20px;
-		}
-
-		.posts > .row > [class*='col-'].single > .thumbnail:first-child > img:first-child {
-			float: left;
-			padding: 10px 10px;
-			padding-top: 35px;
-		}
-
-		.posts > .row > [class*='col-'].tape > .thumbnail:first-child > a:first-child > img {
-				height: 200px;
-				width: auto;
-		}
-
-		.posts > .row > [class*='col-'] > .thumbnail:first-child > .caption:first-child > h3:first-child > a:first-child {
-			font-size: 16pt;
-		}
-
-		.label > a {
-			color: inherit;
-		}
-
-		.form-control, .btn {
-			border-radius: initial;
-		}
+	.main-header {
+		background-image: url("<?php bloginfo('template_url'); ?>/header_background.png");
+	}
 	</style>
 </head>
