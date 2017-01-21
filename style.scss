@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700&subset=cyrillic');
 @import 'css/_mixins.scss';
+@import 'css/_base.scss';
 @import 'css/_header.scss';
 @import 'css/_metrics.scss';
 
@@ -80,4 +81,14 @@
 
 .padding {
 	margin-bottom: 20px;
+}
+
+#carousel {
+	margin: auto #{-$baseMargin};
+
+	.img-responsive {
+		@include respond(small) {
+			height: 22vh;
+		}
+	}
 }

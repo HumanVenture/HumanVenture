@@ -3,7 +3,7 @@
 	@include justify-content(space-between);
 	@include flex-wrap(wrap);
 
-	margin: auto -15px;
+	margin: auto #{-$baseMargin};
 
 	@include respond(small) {
 		@include flex-direction(column);
