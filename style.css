@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700&subset=cyrillic');
+
+* {
+	font-family: 'Raleway', sans-serif;
+}
+
+.row.row-flex {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: -webkit-wrap;
+	flex-wrap: -moz-wrap;
+	flex-wrap: wrap;
+}
+
+.row.row-flex > [class*='col-'] {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+
+.row.row-flex > [class*='col-'] > * {
+	flex-grow: 1;
+}
+
+.row.row-flex.align > [class*='col-'] {
+	margin-top: auto;
+	margin-bottom: auto;
+}

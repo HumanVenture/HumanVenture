@@ -1,0 +1,172 @@
+msgid "Хотите получить выгоду<br>от решения глобальных проблем человечества?<br>"
+msgstr "Making the world better is business.<br>"
+
+msgid "Присоединяйтесь к нам!<br>"
+msgstr "Join us.<br>"
+
+msgid "Зарегистрированных пользователей"
+msgstr "Registered users"
+
+msgid "Переключить режим навигации"
+msgstr "Toggle navigation"
+
+msgid "slider01.jpg"
+msgstr "slider01-en.jpg"
+
+msgid "slider02.jpg"
+msgstr "slider02-en.jpg"
+
+msgid "slider03.jpg"
+msgstr "slider03-en.jpg"
+
+msgid "slider04.jpg"
+msgstr "slider04-en.jpg"
+
+msgid "slider05.jpg"
+msgstr "slider05-en.jpg"
+
+msgid "slider06.jpg"
+msgstr "slider06-en.jpg"
+
+msgid "Количество проектов"
+msgstr "Number of projects"
+
+msgid "Создано рабочих мест"
+msgstr "Number of jobs created"
+
+msgid "Количество денег, инвестированных в проекты (руб.)"
+msgstr "Total amount of funding provided (USD)"
+
+msgid "Запущено возобновляемых источников энергии (Вт)"
+msgstr "Total clean energy installation (W)"
+
+msgid "Количество участников"
+msgstr "Members of Our Community"
+
+msgid "Есть идея!"
+msgstr "I have an idea!"
+
+msgid "Мой проект"
+msgstr "My project"
+
+msgid "Направление"
+msgstr "Sector"
+
+msgid "Коммерческая идея"
+msgstr "Business idea"
+
+msgid "Сумма для реализации, USD"
+msgstr "Funding required, USD"
+
+msgid "Предыдущий"
+msgstr "Previous"
+
+msgid "Следующий"
+msgstr "Next"
+
+msgid "Лаборатория идей"
+msgstr "IdeaLab"
+
+msgid "Ой!"
+msgstr "Oops!"
+
+msgid "Извините, по вашим критериям не найдено ни одного поста."
+msgstr "Sorry, post not found"
+
+msgid "Внимание!"
+msgstr "Attention!"
+
+msgid "Название идеи"
+msgstr "Title ideas"
+
+msgid "Альтернативная энергетика"
+msgstr "Clean energy"
+
+msgid "Борьба с бедностью"
+msgstr "Poverty reduction"
+
+msgid "Космос"
+msgstr "Space"
+
+msgid "Медицина"
+msgstr "Healthcare"
+
+msgid "Образование"
+msgstr "Education"
+
+msgid "Экология"
+msgstr "Environment"
+
+msgid "Срок реализации"
+msgstr "Implementation period"
+
+msgid "> 1 года"
+msgstr "> 1 year"
+
+msgid "1-2 года"
+msgstr "1-2 year"
+
+msgid "3-5 лет"
+msgstr "3-5 year"
+
+msgid "6 и более лет"
+msgstr "6 or more years"
+
+msgid "Маштабируемость"
+msgstr "Scalability"
+
+msgid "выход на региональный рынок"
+msgstr "Regional Market Access"
+#msgstr "Access to the Regional market"
+
+msgid "выход на российский рынок"
+msgstr "Russian Market Access"
+#msgstr "Access to the Russian market"
+
+msgid "выход на мировой рынок"
+msgstr "Global Market Access"
+#msgstr "Access to the world market"
+
+msgid "Описание идеи"
+msgstr "Description of the idea"
+
+msgid "Зарегистрировать идею"
+msgstr "Register your idea"
+
+msgid "Прикрепите изображение или видео"
+msgstr "You can add photos, other images, and videos" 
+#msgstr "Please, attach the image or video"
+
+msgid "Перезагрузить страницу"
+msgstr "Refresh the page"
+#msgstr "Reload the page"
+
+msgid "Опубликовано"
+msgstr "Scalability"
+
+msgid "Вконтакте"
+msgstr "VKontakte"
+
+msgid "в"
+msgstr "v"
+
+msgid "Да"
+msgstr "Yes"
+
+msgid "Нет"
+msgstr "No"
+
+msgid "Что-то пошло не так. Мы уже работаем над проблемой"
+msgstr "Sorry, something went wrong. We're working on getting this fixed as soon we can"
+
+msgid "Войдите, пожалуйста, через ваш профиль или зарегистрируйтесь."
+msgstr "Please, Log In or Sign Up "
+
+msgid "Просмотреть всё"
+msgstr "View all"
+
+msgid "Проекты"
+msgstr "Projects"
+
+msgid "Хочу инвестировать"
+msgstr "I want to invest"

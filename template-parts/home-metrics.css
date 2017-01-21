@@ -1,0 +1,27 @@
+.metrics > .row > [class*='col-'] > .thumbnail > .caption > p:first-child {
+	font-size: 42pt;
+}
+
+.metrics > .row > [class*='col-'] > .thumbnail > .caption > p:nth-child(2) {
+	font-size: 11pt;
+}
+
+.metrics > .row > [class*='col-']:first-child > .thumbnail > .caption > p:first-child {
+	color: #b1c6d0;
+}
+
+.metrics > .row > [class*='col-']:nth-child(2) > .thumbnail > .caption > p:first-child {
+	color: #d0cfcf;
+}
+
+.metrics > .row > [class*='col-']:nth-child(3) > .thumbnail > .caption > p:first-child {
+	color: #86a5b4;
+}
+
+.metrics > .row > [class*='col-']:nth-child(4) > .thumbnail > .caption > p:first-child {
+	color: #b1c6d0;
+}
+
+.metrics > .row > [class*='col-']:nth-child(5) > .thumbnail > .caption > p:first-child {
+	color: #b1c6d0;
+}
