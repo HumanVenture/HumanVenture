@@ -1,3 +1,11 @@
+$breakpoints: (
+  small: 320px,
+	medium: 640px,
+	large: 1024px,
+	xlarge: 1440px,
+	xxlarge: 1920px,
+);
+
 // https://github.com/mastastealth/sass-flex-mixin
 @mixin flexbox {
 	display: -moz-flex;
@@ -116,4 +124,65 @@
 		-ms-flex-line-pack: $value;
 	}
 	align-content: $value;
+}
+
+// https://github.com/mastastealth/sass-flex-mixin
+@mixin flex-basis($value: auto) {
+	-webkit-flex-basis: $value;
+	-moz-flex-basis: $value;
+	-ms-flex-preferred-size: $value;
+	flex-basis: $value;
+}
+
+// https://sitepoint.com/using-sass-maps
+@mixin respond($breakpoint) {
+	@if map-has-key($breakpoints, $breakpoint) {
+		@media (max-width: #{map-get($breakpoints, $breakpoint)}) {
+			@content;
+		}
+	}
+
+	@else {
+		@warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+		+ "Please make sure it is defined in `$breakpoints` map.";
+	}
+}
+
+@mixin respondExclude($breakpoint) {
+	@if map-has-key($breakpoints, $breakpoint) {
+		@media (max-width: #{map-get($breakpoints, $breakpoint)}) {
+			@content;
+		}
+	}
+
+	@else {
+		@warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+		+ "Please make sure it is defined in `$breakpoints` map.";
+	}
+}
+
+@mixin respondMin($breakpoint) {
+	@if map-has-key($breakpoints, $breakpoint) {
+		@media (min-width: #{map-get($breakpoints, $breakpoint)}) {
+			@content;
+		}
+	}
+
+	@else {
+		@warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+		+ "Please make sure it is defined in `$breakpoints` map.";
+	}
+}
+
+@mixin respondMinExclude($breakpoint) {
+	@if map-has-key($breakpoints, $breakpoint) {
+		@media (min-width: #{map-get($breakpoints, $breakpoint) + 1}) {
+			@content;
+		}
+	}
+
+	@else {
+		@warn "Unfortunately, no value could be retrieved from `#{$breakpoint}`. "
+		+ "Please make sure it is defined in `$breakpoints` map.";
+	}
 }
