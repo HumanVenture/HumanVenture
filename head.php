@@ -34,8 +34,8 @@
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
 
 	<style>
-	.main-header {
-		background-image: url("<?php bloginfo('template_url'); ?>/header_background.png");
-	}
+		.main-header {
+			background-image: url("<?php bloginfo('template_url'); ?>/header_background.png");
+		}
 	</style>
 </head>

@@ -1,0 +1,39 @@
+.main-header {
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: cover;
+
+	.navbar {
+		background-color: transparent;
+		border-color: transparent;
+		margin-bottom: 0px;
+		border: none;
+	}
+
+	.navbar-header {
+		color: #ffffff;
+
+		.tagline {
+			font-size: 13pt;
+			text-transform: uppercase;
+		}
+
+		.info {
+			font-size: 10pt;
+		}
+
+		.btn {
+			background-color: transparent;
+			border-color: #ffffff;
+			text-transform: uppercase;
+		}
+	}
+}
+
+.navbar-header {
+	margin-top: 50px;
+}
+
+.navbar-brand {																																												
+	height: auto;
+}

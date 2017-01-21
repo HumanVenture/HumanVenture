@@ -20,6 +20,12 @@
       border-color: #ffffff;
       text-transform: uppercase; }
 
+.navbar-header {
+  margin-top: 50px; }
+
+.navbar-brand {
+  height: auto; }
+
 * {
   font-family: 'Raleway', sans-serif; }
 
@@ -81,5 +87,8 @@
 .form-control,
 .btn {
   border-radius: initial; }
+
+.padding {
+  margin-bottom: 20px; }
 
 /*# sourceMappingURL=style.css.map */
