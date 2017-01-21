@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,500,600,700&subset=cyrillic");
+body {
+  overflow-x: hidden; }
+
 .main-header {
   background-repeat: no-repeat;
   background-position: center;
