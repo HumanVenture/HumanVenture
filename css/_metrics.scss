@@ -1,0 +1,47 @@
+.metrics {
+	@include flexbox;
+	@include justify-content(space-between);
+	@include flex-wrap(wrap);
+
+	margin: auto -15px;
+
+	@include respond(small) {
+		@include flex-direction(column);
+
+		margin: 0;
+	}
+
+	&__item {
+		@include flex-basis(0%);
+		@include flex-grow(1);
+
+		@include respondMinExclude(small) {
+			width: 16.66666667%;
+
+			&--margin {
+				margin-left: 8.33333333%;
+			}
+		}
+	}
+
+	&__thumbnail {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		padding: 4px;
+		border-radius: 4px;
+	}
+	
+	&__caption {
+		text-align: center;
+		padding: 9px;
+		color: #333;
+	}
+
+	&__caption-number {
+		font-size: 42pt;
+	}
+
+	&__caption-label {
+		font-size: 11pt;
+	}
+}
