@@ -147,9 +147,9 @@ body {
 .padding {
   margin-bottom: 20px; }
 
-#carousel {
-  margin: auto -15px; }
-  @media (max-width: 320px) {
+@media (max-width: 320px) {
+  #carousel {
+    margin: auto -15px; }
     #carousel .img-responsive {
       height: 22vh; } }
 

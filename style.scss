@@ -84,10 +84,10 @@
 }
 
 #carousel {
-	margin: auto #{-$baseMargin};
+	@include respond(small) {
+		margin: auto #{-$baseMargin};
 
-	.img-responsive {
-		@include respond(small) {
+		.img-responsive {
 			height: 22vh;
 		}
 	}
