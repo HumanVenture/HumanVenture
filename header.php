@@ -18,8 +18,19 @@
 					</div>
 					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-offset-2 col-lg-2 main-header__t-login">
 						<span class="login-buttons">
-							<button class="btn btn-primary btn-md active login-button-facebook" type="button" onclick="location.href='<?php bloginfo('url'); ?>/wp-login.php?action=wordpress_social_authenticate&mode=login&provider=Facebook';"><?php echo __('f', 'hv-serikoff'); ?></button>
-							<button class="btn btn-primary btn-md active login-button-vkontakte" type="button" onclick="location.href='<?php bloginfo('url'); ?>/wp-login.php?action=wordpress_social_authenticate&mode=login&provider=Vkontakte';"><?php echo __('в', 'hv-serikoff'); ?></button>
+							<button class="btn btn-primary btn-md active login-button-facebook"
+											type="button"
+											title="<?php echo __('Вход через Facebook', 'hv-serikoff'); ?>"
+											onclick="location.href='<?php bloginfo('url'); ?>/wp-login.php?action=wordpress_social_authenticate&mode=login&provider=Facebook';">
+								<?php echo __('f', 'hv-serikoff'); ?>
+							</button>
+
+							<button class="btn btn-primary btn-md active login-button-vkontakte"
+											type="button"
+											title="<?php echo __('Вход через ВКонтакте', 'hv-serikoff'); ?>"
+											onclick="location.href='<?php bloginfo('url'); ?>/wp-login.php?action=wordpress_social_authenticate&mode=login&provider=Vkontakte';">
+								<?php echo __('в', 'hv-serikoff'); ?>
+							</button>
 						</span>
 					</div>
 				</div>

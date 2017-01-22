@@ -183,4 +183,8 @@ body {
     #carousel .img-responsive {
       height: 22vh; } }
 
+.login-buttons .btn:hover,
+.language-switcher-button:hover {
+  opacity: .9; }
+
 /*# sourceMappingURL=style.css.map */
