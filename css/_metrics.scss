@@ -18,6 +18,7 @@
 		@include respondMinExclude(small) {
 			width: 16.66666667%;
 
+			// @deprecated
 			&--margin {
 				margin-left: 8.33333333%;
 			}

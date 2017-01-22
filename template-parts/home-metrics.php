@@ -17,7 +17,7 @@
 		</div>
 	</div>
 
-	<div class="metrics__item metrics__item--margin">
+	<div class="metrics__item">
 		<div class="metrics__thumbnail">
 			<div class="metrics__caption">
 				<p class="metrics__caption-number" style="color: #86a5b4;">1500</p>
@@ -26,7 +26,7 @@
 		</div>
 	</div>
 
-	<div class="metrics__item metrics__item--margin">
+	<div class="metrics__item">
 		<div class="metrics__thumbnail">
 			<div class="metrics__caption">
 				<p class="metrics__caption-number" style="color: #b1c6d0;">10</p>
