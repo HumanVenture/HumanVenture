@@ -22,6 +22,36 @@ body {
       background-color: transparent;
       border-color: #ffffff;
       text-transform: uppercase; }
+  @media (max-width: 640px) {
+    .main-header__t-logo-row, .main-header__t-description-row {
+      display: -moz-flex;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-direction: normal;
+      -webkit-box-orient: vertical;
+      -webkit-flex-direction: column;
+      -moz-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      align-items: center;
+      margin: 0; }
+    .main-header__t-logo-row {
+      margin-bottom: 1rem; }
+    .main-header__t-user-counter {
+      display: none; }
+    .main-header__t-logo, .main-header__t-login {
+      padding: 0;
+      width: auto; }
+    .main-header__t-description {
+      padding: 0; }
+    .main-header__t-language-switch-row {
+      padding-left: 15px; } }
 
 .navbar-header {
   margin-top: 50px; }

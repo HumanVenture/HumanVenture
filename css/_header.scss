@@ -28,6 +28,40 @@
 			text-transform: uppercase;
 		}
 	}
+
+	// temp
+	@include respond(medium) {
+		&__t-logo-row,
+		&__t-description-row {
+			@include flexbox;
+			@include flex-direction(column);
+			@include align-items(center);
+
+			margin: 0;
+		}
+
+		&__t-logo-row {
+			margin-bottom: 1rem;
+		}
+
+		&__t-user-counter {
+			display: none;
+		}
+
+		&__t-logo,
+		&__t-login {
+			padding: 0;
+			width: auto;
+		}
+
+		&__t-description {
+			padding: 0;
+		}
+
+		&__t-language-switch-row {
+			padding-left: $baseMargin;
+		}
+	}
 }
 
 .navbar-header {
