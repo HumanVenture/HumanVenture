@@ -36,6 +36,18 @@
 		}
 	}
 
+	@include respond(medium) {
+		// to-do
+		.dropdown-menu {
+	    position: static;
+	    width: 100%;
+		}
+
+		#navbar-collapse {
+			margin-bottom: 1rem;
+		}
+	}
+
 	// temp
 	@include respond(medium) {
 		&__t-logo-row,

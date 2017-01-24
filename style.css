@@ -27,6 +27,12 @@ body {
       background-color: white;
       vertical-align: middle; } }
   @media (max-width: 640px) {
+    .main-header .dropdown-menu {
+      position: static;
+      width: 100%; }
+    .main-header #navbar-collapse {
+      margin-bottom: 1rem; } }
+  @media (max-width: 640px) {
     .main-header__t-logo-row, .main-header__t-description-row {
       display: -moz-flex;
       display: -webkit-box;
