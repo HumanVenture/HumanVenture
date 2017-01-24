@@ -1,5 +1,5 @@
 <header class="main-header">
-	<nav class="navbar navbar-default navbar-static-top" role="navigation">
+	<div class="navbar navbar-default navbar-static-top" role="navigation">
 		<div class="container">
 			<div class="navbar-header">
 				<div class="row main-header__t-language-switch-row">
@@ -51,7 +51,7 @@
 				</button>
 				<div class="row padding"></div>
 			</div>
-			<div cla-primary-collapsess="collapse navbar-collapse">
+			<nav cla-primary-collapsess="collapse navbar-collapse">
 				<?php wp_nav_menu(array(
 					'menu'            => 'main',
 					'theme_location'  => 'primary',
