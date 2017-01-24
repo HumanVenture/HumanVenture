@@ -22,6 +22,10 @@ body {
       background-color: transparent;
       border-color: #ffffff;
       text-transform: uppercase; }
+  @media (min-width: 641px) {
+    .main-header .nav-justified > li {
+      background-color: white;
+      vertical-align: middle; } }
   @media (max-width: 640px) {
     .main-header__t-logo-row, .main-header__t-description-row {
       display: -moz-flex;

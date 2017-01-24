@@ -29,6 +29,13 @@
 		}
 	}
 
+	@include respondMinExclude(medium) {
+		.nav-justified > li {
+			background-color: white;
+			vertical-align: middle;
+		}
+	}
+
 	// temp
 	@include respond(medium) {
 		&__t-logo-row,
