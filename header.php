@@ -5,8 +5,8 @@
 				<div class="row main-header__t-language-switch-row">
 					<div class="col-xs-12">
 						<span class="languages-switcher-buttons">
-							<button class="btn btn-primary btn-xs active language-switcher-button language-switcher-button-en" type="button" onclick="location.href='<?php echo get_blog_details(1, true)->siteurl; ?>"><?php echo __('en', 'hv-serikoff'); ?></button>
-							<button class="btn btn-primary btn-xs active language-switcher-button language-switcher-button-ru" type="button" onclick="location.href='<?php echo get_blog_details(0, true)->siteurl; ?>'"><?php echo __('ru', 'hv-serikoff'); ?></button>
+							<button class="btn btn-primary btn-xs active language-switcher-button language-switcher-button-en" type="button" onclick="location.href='<?php echo get_blog_details(2, true)->siteurl; ?>'"><?php echo __('en', 'hv-serikoff'); ?></button>
+							<button class="btn btn-primary btn-xs active language-switcher-button language-switcher-button-ru" type="button" onclick="location.href='<?php echo get_blog_details(1, true)->siteurl; ?>'"><?php echo __('ru', 'hv-serikoff'); ?></button>
 						</span>
 					</div>
 				</div>
