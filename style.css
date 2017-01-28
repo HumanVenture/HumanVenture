@@ -139,12 +139,19 @@ body {
 .idea-search {
   margin: 1rem 0; }
   .idea-search__container {
-    margin: 1rem 0;
     display: -moz-flex;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex; }
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    justify-content: space-between;
+    margin: 1rem 0; }
+  .idea-search__hr {
+    border-top: 1px solid #4c4c4b; }
 
 .idea-button {
   text-align: center; }
@@ -167,6 +174,52 @@ body {
   background: white;
   border: 1px solid #bbb;
   color: #709fb3; }
+
+.idea-card {
+  width: 345px;
+  height: 476px;
+  border: 1px solid #6b6b6b; }
+  .idea-card__category {
+    text-align: center;
+    text-transform: uppercase;
+    color: #026780;
+    margin: 0; }
+  .idea-card__image {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 160px; }
+  .idea-card__info {
+    padding: 0 5%; }
+  .idea-card__name {
+    text-align: center;
+    text-transform: uppercase; }
+  .idea-card__actions {
+    display: -moz-flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-box-align: baseline;
+    -ms-flex-align: baseline;
+    -webkit-align-items: baseline;
+    -moz-align-items: baseline;
+    align-items: baseline;
+    text-align: center; }
+  .idea-card__action--reply .idea-card__action-icon {
+    width: 21px;
+    height: 15px; }
+  .idea-card__action--like .idea-card__action-icon {
+    width: 21px;
+    height: 15px; }
+  .idea-card__action-description, .idea-card__action-counter {
+    margin: 0; }
 
 * {
   font-family: 'Raleway', sans-serif; }
