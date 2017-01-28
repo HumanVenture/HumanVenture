@@ -278,6 +278,9 @@ body {
   .idea-grid .idea-card + .idea-card {
     margin-top: 3rem; }
 
+.projects__grid {
+  padding: 0 15%; }
+
 * {
   font-family: 'Raleway', sans-serif; }
 
