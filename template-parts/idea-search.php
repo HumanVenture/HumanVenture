@@ -1,9 +1,3 @@
-<style>
-  .idea-button__button {
-    background-image: url('<?php bloginfo('template_directory'); ?>/assets/idea-button.png');
-  }
-</style>
-
 <div class="idea-search">
   <div class="idea-button">
     <button class="idea-button__button">Есть идея!</button>
