@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700&subset=cyrillic');
 @import 'css/_mixins.scss';
 @import 'css/_base.scss';
+@import 'css/_input-context.scss';
 @import 'css/_header.scss';
 @import 'css/_metrics.scss';
+@import 'css/_idea-search.scss';
+@import 'css/_idea-button.scss';
+@import 'css/themes/_input-context-basic.scss';
 
 * {
 	font-family: 'Raleway', sans-serif;
@@ -37,7 +41,7 @@
 		font-size: 14pt;
 		text-transform: uppercase;
 	}
-	
+
 	> li > ul > li > a {
 		font-size: 11pt;
 	}
@@ -63,7 +67,7 @@
 			height: 200px;
 			width: auto;
 		}
-		
+
 		> .thumbnail:first-child > .caption:first-child > h3:first-child > a:first-child {
 			font-size: 16pt;
 		}

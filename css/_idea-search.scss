@@ -1,0 +1,8 @@
+.idea-search {
+  margin: 1rem 0;
+
+  &__container {
+    margin: 1rem 0;
+    @include flexbox;
+  }
+}

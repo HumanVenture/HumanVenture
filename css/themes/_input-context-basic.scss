@@ -1,0 +1,16 @@
+.input-context--theme-basic {
+  .input-context__row {
+    @include align-items(baseline);
+  }
+
+  .input-context__label {
+    text-transform: uppercase;
+    font-weight: normal;
+  }
+
+  .input-context__input {
+    background: white;
+    border: 1px solid #bbb;
+    color: #709fb3;
+  }
+}

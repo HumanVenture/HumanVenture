@@ -1,0 +1,30 @@
+.input-context {
+  &__row {
+    @include flexbox;
+    @include justify-content(space-between);
+  }
+
+  &__row + &__row {
+    margin: 1rem 0;
+  }
+
+  &__label-wrapper {
+
+  }
+
+  &__label {
+
+  }
+
+  &__input-wrapper {
+
+  }
+
+  &__input {
+
+  }
+
+  &__description {
+    
+  }
+}
