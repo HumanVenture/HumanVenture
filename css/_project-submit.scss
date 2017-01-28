@@ -15,4 +15,12 @@
     padding: 0 26%;
     margin: 2rem 0;
   }
+
+  &__form {
+    display: none;
+
+    &--active {
+      display: block;
+    }
+  }
 }

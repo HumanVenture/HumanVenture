@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/page-project-submit.css" />
+<script src="<?php bloginfo('template_directory'); ?>/js/project-submit-form.js"></script>
 
 <div class="project-submit">
   <div class="project-submit__got-idea">
@@ -20,7 +21,7 @@
   </div>
 
   <div class="project-submit__form-wrapper">
-    <div class="js-form-conversation">
+    <div class="project-submit__form project-submit__form--active js-form-conversation">
       <form class="input-context input-context--theme-basic">
         <div class="input-context__row">
           <div class="input-context__label-wrapper">
@@ -163,7 +164,8 @@
       </form>
     </div>
 
-    <div class="js-form-investment">
+    <div class="project-submit__form js-form-investment">
+      <p>Test</p>
     </div>
   </div
 </div>

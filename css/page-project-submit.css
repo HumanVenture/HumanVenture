@@ -216,6 +216,10 @@ body {
   .project-submit__form-wrapper {
     padding: 0 26%;
     margin: 2rem 0; }
+  .project-submit__form {
+    display: none; }
+    .project-submit__form--active {
+      display: block; }
 
 .project-submit-form-switch {
   text-align: center; }
