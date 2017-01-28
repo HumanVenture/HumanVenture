@@ -202,12 +202,16 @@ body {
 .idea-card {
   width: 345px;
   height: 476px;
-  border: 1px solid #6b6b6b; }
+  border: 1px solid #6b6b6b;
+  width: 275px; }
   .idea-card__category {
     text-align: center;
     text-transform: uppercase;
     color: #026780;
-    margin: 0; }
+    margin: 0;
+    font-size: 2rem;
+    font-weight: normal;
+    margin: .5rem 0; }
   .idea-card__image {
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -218,7 +222,10 @@ body {
     padding: 0 5%; }
   .idea-card__name {
     text-align: center;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    color: #026780;
+    font-size: 1.8rem;
+    font-weight: bold; }
   .idea-card__actions {
     display: -moz-flex;
     display: -webkit-box;

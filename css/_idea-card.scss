@@ -2,12 +2,19 @@
   width: 345px;
   height: 476px;
   border: 1px solid #6b6b6b;
+  // temp
+  width: 275px;
 
   &__category {
     text-align: center;
     text-transform: uppercase;
     color: #026780;
     margin: 0;
+
+    // temp
+    font-size: 2rem;
+    font-weight: normal;
+    margin: .5rem 0;
   }
 
   &__image {
@@ -23,6 +30,9 @@
   &__name {
     text-align: center;
     text-transform: uppercase;
+    color: #026780;
+    font-size: 1.8rem;
+    font-weight: bold;
   }
 
   &__description {
