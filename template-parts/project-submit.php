@@ -165,7 +165,100 @@
     </div>
 
     <div class="project-submit__form js-form-investment">
-      <p>Test</p>
+      <form class="input-context input-context--theme-basic">
+        <fieldset class="input-context__fieldset">
+          <legend class="input-context__legend">Общие данные</legend>
+
+          <div class="input-context__row">
+            <div class="input-context__label-wrapper">
+              <label for="hook-inv-project-name" class="input-context__label">Название проекта</label>
+            </div>
+
+            <div class="input-context__input-wrapper">
+              <textarea
+                id="hook-inv-project-name"
+                name="project_name"
+                class="input-context__input input-context__input--textarea">
+              </textarea>
+            </div>
+          </div>
+
+          <div class="input-context__row">
+            <div class="input-context__label-wrapper">
+              <label for="hook-inv-problems" class="input-context__label">
+                Проблемы рынка, решаемые инновацией
+              </label>
+            </div>
+
+            <div class="input-context__input-wrapper">
+              <textarea
+                id="hook-inv-problems"
+                name="problems"
+                class="input-context__input input-context__input--textarea">
+              </textarea>
+            </div>
+          </div>
+
+          <div class="input-context__row">
+            <div class="input-context__label-wrapper">
+              <label for="hook-inv-monetization" class="input-context__label">
+                Механизм монетизации
+              </label>
+            </div>
+
+            <div class="input-context__input-wrapper">
+              <textarea
+                id="hook-inv-monetization"
+                name="monetization"
+                class="input-context__input input-context__input--textarea">
+              </textarea>
+            </div>
+          </div>
+
+          <div class="input-context__row">
+            <div class="input-context__label-wrapper">
+              <label for="hook-inv-short-description" class="input-context__label">
+                Суть инновации
+              </label>
+            </div>
+
+            <div class="input-context__input-wrapper">
+              <textarea
+                id="hook-inv-short-description"
+                name="short_description"
+                class="input-context__input input-context__input--textarea">
+              </textarea>
+            </div>
+          </div>
+        </fieldset>
+
+        <fieldset class="input-context__fieldset">
+          <legend class="input-context__legend">Защищаемость</legend>
+
+          <div class="input-context__row">
+            <div class="input-context__label-wrapper">
+              <label for="hook-inv-expertise" class="input-context__label">
+                Есть ли техническое обоснование / экспертиза разработки
+              </label>
+            </div>
+
+            <div class="input-context__input-wrapper">
+              <textarea
+                id="hook-inv-expertise"
+                name="expertise"
+                class="input-context__input input-context__input--textarea">
+              </textarea>
+            </div>
+          </div>
+        </fieldset>
+
+        <div class="input-context__row input-context__row--center">
+          <input
+            type="submit"
+            value="Зарегистрировать идею"
+            class="input-context__input input-context__input--submit"
+          />
+      </form>
     </div>
   </div
 </div>
