@@ -7,7 +7,7 @@
 			<?php get_header(); ?>
 		</div>
 		<div class="container home-wrapper">
-			<?php get_template_part('template-parts/home', 'content'); ?>
+			<?php get_template_part('template-parts/idea-search', 'content'); ?>
 		</div>
 		<div class="footer-wrapper">
 			<?php get_footer(); ?>
