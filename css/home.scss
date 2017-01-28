@@ -3,9 +3,4 @@
 @import 'css/_idea-button.scss';
 @import 'css/_idea-card.scss';
 @import 'css/_idea-grid.scss';
-
-.projects {
-  &__grid {
-    padding: 0 15%;
-  }
-}
+@import 'css/_metrics.scss';
