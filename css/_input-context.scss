@@ -31,6 +31,9 @@
   }
 
   &__input {
+    &--textarea {
+      resize: vertical;
+    }
   }
 
   &__description {

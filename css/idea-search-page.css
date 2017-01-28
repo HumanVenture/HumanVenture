@@ -184,6 +184,8 @@ body {
   -ms-user-select: none;
   user-select: none;
   cursor: pointer; }
+.input-context__input--textarea {
+  resize: vertical; }
 
 .input-context--theme-basic .input-context__row {
   -webkit-box-align: baseline;
