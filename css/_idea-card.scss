@@ -1,6 +1,6 @@
 .idea-card {
   width: 345px;
-  height: 476px;
+  //height: 476px;
   border: 1px solid #6b6b6b;
   // temp
   width: 275px;
@@ -25,6 +25,7 @@
 
   &__info {
     padding: 0 5%;
+    padding-bottom: 2rem;
   }
 
   &__name {

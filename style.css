@@ -176,6 +176,8 @@ body {
         flex-direction: column; } }
   .idea-search__hr {
     border-top: 1px solid #4c4c4b; }
+  .idea-search__results {
+    padding: 0 10%; }
 
 .idea-button {
   text-align: center; }
@@ -201,7 +203,6 @@ body {
 
 .idea-card {
   width: 345px;
-  height: 476px;
   border: 1px solid #6b6b6b;
   width: 275px; }
   .idea-card__category {
@@ -219,7 +220,8 @@ body {
     background-size: cover;
     height: 160px; }
   .idea-card__info {
-    padding: 0 5%; }
+    padding: 0 5%;
+    padding-bottom: 2rem; }
   .idea-card__name {
     text-align: center;
     text-transform: uppercase;
@@ -251,6 +253,29 @@ body {
     height: 15px; }
   .idea-card__action-description, .idea-card__action-counter {
     margin: 0; }
+
+.idea-grid {
+  display: -moz-flex;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  -webkit-align-items: baseline;
+  -moz-align-items: baseline;
+  align-items: baseline;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  .idea-grid .idea-card + .idea-card {
+    margin-top: 3rem; }
 
 * {
   font-family: 'Raleway', sans-serif; }

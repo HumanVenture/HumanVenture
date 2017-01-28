@@ -1,0 +1,10 @@
+.idea-grid {
+  @include flexbox;
+  @include justify-content(space-between);
+  @include align-items(baseline);
+  @include flex-wrap(wrap);
+
+  .idea-card + .idea-card {
+    margin-top: 3rem;
+  }
+}
