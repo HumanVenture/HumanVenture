@@ -1,20 +1,28 @@
-function _onSwitchButtonClick() {
-  var targetClassName = 'project-submit__form--active';
-
-  if (currentActiveForm = document.querySelector('.' + targetClassName)) {
-    currentActiveForm.classList.remove(targetClassName);
+function _switchModifiers(modifierClassName, targetElement) {
+  if (currentElement = document.querySelector('.' + modifierClassName)) {
+    currentElement.classList.remove(modifierClassName);
   }
+  targetElement.classList.add(modifierClassName);
+}
 
-  var newActiveForm = document.querySelector('.' + this.getAttribute('data-target'));
-  newActiveForm.classList.add(targetClassName);
+function _onSwitchButtonClick() {
+  // switch active form
+  _switchModifiers(
+    'project-submit__form--active',
+    document.querySelector('.' + this.getAttribute('data-target'))
+  );
+
+  // switch active button
+  _switchModifiers(
+    'project-submit-form-switch__button--active',
+    this
+  );
 }
 
 document.addEventListener('DOMContentLoaded', function(_) {
   var switchButtons = document.querySelectorAll('.project-submit-form-switch__button');
 
   for(var i = 0; i < switchButtons.length; i++) {
-    var item = switchButtons[i];
-
-    item.addEventListener('click', _onSwitchButtonClick);
+    switchButtons[i].addEventListener('click', _onSwitchButtonClick);
   }
 });
