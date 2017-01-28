@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/projects.css" /> 
+
 <div class="projects">
   <div class="idea-button">
     <button class="idea-button__button">Есть идея!</button>

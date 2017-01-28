@@ -1,359 +1,56 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,500,600,700&subset=cyrillic");
-body {
-  overflow-x: hidden; }
+/*
+Error: File to import not found or unreadable: css/_projects.scss.
+       Load path: /home/deathyon/servers/hv/wp-content/themes/hv-serikoff
+        on line 12 of hv-serikoff/style.scss
 
-.input-context__row {
-  display: -moz-flex;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  -webkit-justify-content: space-between;
-  -moz-justify-content: space-between;
-  justify-content: space-between; }
-  @media (max-width: 320px) {
-    .input-context__row {
-      -webkit-box-direction: normal;
-      -webkit-box-orient: vertical;
-      -webkit-flex-direction: column;
-      -moz-flex-direction: column;
-      -ms-flex-direction: column;
-      flex-direction: column; } }
-.input-context__row + .input-context__row {
-  margin: 1rem 0; }
-.input-context__label {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  cursor: pointer; }
+7: @import 'css/_idea-search.scss';
+8: @import 'css/_idea-button.scss';
+9: @import 'css/themes/_input-context-basic.scss';
+10: @import 'css/_idea-card.scss';
+11: @import 'css/_idea-grid.scss';
+12: @import 'css/_projects.scss';
 
-.main-header {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; }
-  .main-header .navbar {
-    background-color: transparent;
-    border-color: transparent;
-    margin-bottom: 0px;
-    border: none; }
-  .main-header .navbar-header {
-    color: #ffffff; }
-    .main-header .navbar-header .tagline {
-      font-size: 13pt;
-      text-transform: uppercase; }
-    .main-header .navbar-header .info {
-      font-size: 10pt; }
-    .main-header .navbar-header .btn {
-      background-color: transparent;
-      border-color: #ffffff;
-      text-transform: uppercase; }
-  @media (min-width: 641px) {
-    .main-header .nav-justified > li {
-      background-color: white;
-      vertical-align: middle; } }
-  @media (max-width: 640px) {
-    .main-header .dropdown-menu {
-      position: static;
-      width: 100%; }
-    .main-header #navbar-collapse {
-      margin-bottom: 1rem; } }
-  @media (max-width: 640px) {
-    .main-header__t-logo-row, .main-header__t-description-row {
-      display: -moz-flex;
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-direction: normal;
-      -webkit-box-orient: vertical;
-      -webkit-flex-direction: column;
-      -moz-flex-direction: column;
-      -ms-flex-direction: column;
-      flex-direction: column;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      -webkit-align-items: center;
-      -moz-align-items: center;
-      align-items: center;
-      margin: 0; }
-    .main-header__t-logo-row {
-      margin-bottom: 1rem; }
-    .main-header__t-user-counter {
-      display: none; }
-    .main-header__t-logo, .main-header__t-login {
-      padding: 0;
-      width: auto; }
-    .main-header__t-description {
-      padding: 0; }
-    .main-header__t-language-switch-row {
-      padding-left: 15px; } }
-
-.navbar-header {
-  margin-top: 50px; }
-
-.navbar-brand {
-  height: auto; }
-
-.metrics {
-  display: -moz-flex;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  -webkit-justify-content: space-between;
-  -moz-justify-content: space-between;
-  justify-content: space-between;
-  -webkit-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin: auto -15px; }
-  @media (max-width: 320px) {
-    .metrics {
-      -webkit-box-direction: normal;
-      -webkit-box-orient: vertical;
-      -webkit-flex-direction: column;
-      -moz-flex-direction: column;
-      -ms-flex-direction: column;
-      flex-direction: column;
-      margin: 0; } }
-  .metrics__item {
-    -webkit-flex-basis: 0%;
-    -moz-flex-basis: 0%;
-    -ms-flex-preferred-size: 0%;
-    flex-basis: 0%;
-    -webkit-flex-grow: 1;
-    -moz-flex-grow: 1;
-    -ms-flex-grow: 1;
-    flex-grow: 1; }
-    @media (min-width: 321px) {
-      .metrics__item {
-        width: 16.66666667%; }
-        .metrics__item--margin {
-          margin-left: 8.33333333%; } }
-  .metrics__thumbnail {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 4px;
-    border-radius: 4px; }
-  .metrics__caption {
-    text-align: center;
-    padding: 9px;
-    color: #333; }
-  .metrics__caption-number {
-    font-size: 42pt; }
-  .metrics__caption-label {
-    font-size: 11pt; }
-
-.idea-search {
-  margin: 1rem 0; }
-  .idea-search__container {
-    display: -moz-flex;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    -webkit-justify-content: space-between;
-    -moz-justify-content: space-between;
-    justify-content: space-between;
-    margin: 1rem 0; }
-    @media (max-width: 320px) {
-      .idea-search__container {
-        -webkit-box-direction: normal;
-        -webkit-box-orient: vertical;
-        -webkit-flex-direction: column;
-        -moz-flex-direction: column;
-        -ms-flex-direction: column;
-        flex-direction: column; } }
-  .idea-search__hr {
-    border-top: 1px solid #4c4c4b; }
-  .idea-search__results {
-    padding: 0 10%; }
-
-.idea-button {
-  text-align: center; }
-  .idea-button__button {
-    background: #0296bc;
-    padding: 1.7rem 10rem;
-    color: white;
-    border: 0;
-    text-transform: uppercase; }
-
-.input-context--theme-basic .input-context__row {
-  -webkit-box-align: baseline;
-  -ms-flex-align: baseline;
-  -webkit-align-items: baseline;
-  -moz-align-items: baseline;
-  align-items: baseline; }
-.input-context--theme-basic .input-context__label {
-  text-transform: uppercase;
-  font-weight: normal; }
-.input-context--theme-basic .input-context__input {
-  background: white;
-  border: 1px solid #bbb;
-  color: #709fb3; }
-
-.idea-card {
-  width: 345px;
-  border: 1px solid #6b6b6b;
-  width: 275px; }
-  .idea-card__category {
-    text-align: center;
-    text-transform: uppercase;
-    color: #026780;
-    margin: 0;
-    font-size: 2rem;
-    font-weight: normal;
-    margin: .5rem 0; }
-  .idea-card__image {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 160px; }
-  .idea-card__info {
-    padding: 0 5%;
-    padding-bottom: 2rem; }
-  .idea-card__name {
-    text-align: center;
-    text-transform: uppercase;
-    color: #026780;
-    font-size: 1.8rem;
-    font-weight: bold; }
-  .idea-card__actions {
-    display: -moz-flex;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    -webkit-justify-content: space-between;
-    -moz-justify-content: space-between;
-    justify-content: space-between;
-    -webkit-box-align: baseline;
-    -ms-flex-align: baseline;
-    -webkit-align-items: baseline;
-    -moz-align-items: baseline;
-    align-items: baseline;
-    text-align: center; }
-  .idea-card__action--reply .idea-card__action-icon {
-    width: 21px;
-    height: 15px; }
-  .idea-card__action--like .idea-card__action-icon {
-    width: 21px;
-    height: 15px; }
-  .idea-card__action-description, .idea-card__action-counter {
-    margin: 0; }
-
-.idea-grid {
-  display: -moz-flex;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  -webkit-justify-content: space-between;
-  -moz-justify-content: space-between;
-  justify-content: space-between;
-  -webkit-box-align: baseline;
-  -ms-flex-align: baseline;
-  -webkit-align-items: baseline;
-  -moz-align-items: baseline;
-  align-items: baseline;
-  -webkit-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap; }
-  .idea-grid .idea-card + .idea-card {
-    margin-top: 3rem; }
-
-.projects__grid {
-  padding: 0 15%; }
-
-* {
-  font-family: 'Raleway', sans-serif; }
-
-.row.row-flex {
-  display: -moz-flex;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-  -moz-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap; }
-  .row.row-flex > [class*='col-'] {
-    display: -moz-flex;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex; }
-    .row.row-flex > [class*='col-'] > * {
-      -webkit-flex-grow: 1;
-      -moz-flex-grow: 1;
-      -ms-flex-grow: 1;
-      flex-grow: 1; }
-  .row.row-flex.align > [class*='col-'] {
-    margin-top: auto;
-    margin-bottom: auto; }
-
-#main-footer {
-  border-top: 4px solid #005e8a; }
-
-.nav.nav-justified > li > a {
-  color: #4c4949;
-  background-color: #ffffff;
-  font-size: 14pt;
-  text-transform: uppercase; }
-.nav.nav-justified > li > ul > li > a {
-  font-size: 11pt; }
-
-:not(.feed) > .row:first-child > [class*='col-'] > .thumbnail:first-child {
-  border: 1px hidden; }
-
-.row:first-child > [class*='col-'] > .thumbnail:first-child {
-  margin-top: 20px; }
-
-.posts > .row > [class*='col-'].single > .thumbnail:first-child > img:first-child {
-  float: left;
-  padding: 10px 10px;
-  padding-top: 35px; }
-.posts > .row > [class*='col-'].tape > .thumbnail:first-child > a:first-child > img {
-  height: 200px;
-  width: auto; }
-.posts > .row > [class*='col-'] > .thumbnail:first-child > .caption:first-child > h3:first-child > a:first-child {
-  font-size: 16pt; }
-
-.label > a {
-  color: inherit; }
-
-.form-control,
-.btn {
-  border-radius: initial; }
-
-.padding {
-  margin-bottom: 20px; }
-
-@media (max-width: 320px) {
-  #carousel {
-    margin: auto -15px; }
-    #carousel .img-responsive {
-      height: 22vh; } }
-
-.login-buttons .btn:hover,
-.language-switcher-button:hover {
-  opacity: .9; }
-
-/*# sourceMappingURL=style.css.map */
+Backtrace:
+hv-serikoff/style.scss:12
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:67:in `rescue in import'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:45:in `import'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:28:in `imported_file'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/import_node.rb:37:in `css_import?'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:313:in `visit_import'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `block in with_base'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:115:in `with_frame'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/stack.rb:79:in `with_base'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `map'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/base.rb:36:in `visit'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:36:in `css_tree'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `each'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/lib/sass/plugin/compiler.rb:331:in `block in watch'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
+/var/lib/gems/2.3.0/gems/sass-3.4.22/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: css/_projects.scss.\A        Load path: /home/deathyon/servers/hv/wp-content/themes/hv-serikoff\A         on line 12 of hv-serikoff/style.scss\A \A 7: @import 'css/_idea-search.scss';\A 8: @import 'css/_idea-button.scss';\A 9: @import 'css/themes/_input-context-basic.scss';\A 10: @import 'css/_idea-card.scss';\A 11: @import 'css/_idea-grid.scss';\A 12: @import 'css/_projects.scss';"; }

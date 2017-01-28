@@ -1,0 +1,12 @@
+@import 'css/_mixins.scss';
+@import 'css/_base.scss';
+@import 'css/_header.scss';
+@import 'css/_idea-button.scss';
+@import 'css/_idea-card.scss';
+@import 'css/_idea-grid.scss';
+
+.projects {
+  &__grid {
+    padding: 0 15%;
+  }
+}

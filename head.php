@@ -32,7 +32,7 @@
 		});
 	</script>
 
-	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>">
+	<!-- <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>"> -->
 
 	<style>
 		.main-header {
