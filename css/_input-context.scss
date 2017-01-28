@@ -2,6 +2,10 @@
   &__row {
     @include flexbox;
     @include justify-content(space-between);
+
+    @include respond(small) {
+      @include flex-direction(column);
+    }
   }
 
   &__row + &__row {
@@ -13,7 +17,9 @@
   }
 
   &__label {
-
+    @include user-select(none);
+    
+    cursor: pointer;
   }
 
   &__input-wrapper {
@@ -25,6 +31,6 @@
   }
 
   &__description {
-    
+
   }
 }

@@ -6,6 +6,10 @@
     @include justify-content(space-between);
 
     margin: 1rem 0;
+
+    @include respond(small) {
+      @include flex-direction(column);
+    }
   }
 
   &__hr {
