@@ -12,5 +12,13 @@
     background: white;
     border: 1px solid #bbb;
     color: #709fb3;
+
+    &--submit {
+      background: #408da0;
+      color: white;
+      text-transform: uppercase;
+      border: 0;
+      padding: 1.4rem;
+    }
   }
 }

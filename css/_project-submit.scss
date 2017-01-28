@@ -1,0 +1,18 @@
+.project-submit {
+  margin: 1rem 0;
+
+  &__got-idea {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  &__got-idea-header {
+    text-transform: uppercase;
+    color: #0296bc;
+  }
+
+  &__form-wrapper {
+    padding: 0 26%;
+    margin: 2rem 0;
+  }
+}

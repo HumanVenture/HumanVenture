@@ -6,6 +6,11 @@
     @include respond(small) {
       @include flex-direction(column);
     }
+
+    &--center {
+      @include flexbox;
+      @include justify-content(center);
+    }
   }
 
   &__row + &__row {
@@ -18,19 +23,16 @@
 
   &__label {
     @include user-select(none);
-    
+
     cursor: pointer;
   }
 
   &__input-wrapper {
-
   }
 
   &__input {
-
   }
 
   &__description {
-
   }
 }
