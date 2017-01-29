@@ -21,6 +21,12 @@
     </button>
   </div>
 
+  <div class="section-header">
+    <p class="section-header__dash"></p>
+    <p class="section-header__text">Мой проект</p>
+    <p class="section-header__dash"></p>
+  </div>
+
   <div class="project-submit__form-wrapper">
     <div class="project-submit__form project-submit__form--active js-form-conversation">
       <form class="input-context input-context--theme-basic">

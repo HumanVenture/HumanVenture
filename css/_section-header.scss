@@ -1,0 +1,20 @@
+.section-header {
+  @include flexbox;
+  @include align-items(center);
+
+  margin: 3rem 0;
+
+  &__dash {
+    @include flex-grow(2);
+
+    height: 1px;
+    border-top: 1px solid #ddd;
+  }
+
+  &__text {
+    @include flex-grow(0);
+    
+    padding: 0 .5rem;
+    text-transform: uppercase;
+  }
+}
