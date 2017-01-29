@@ -258,8 +258,7 @@
               <textarea
                 id="hook-inv-project-name"
                 name="project_name"
-                class="input-context__input input-context__input--textarea">
-              </textarea>
+                class="input-context__input input-context__input--textarea"></textarea>
             </div>
           </div>
 
@@ -274,8 +273,7 @@
               <textarea
                 id="hook-inv-problems"
                 name="problems"
-                class="input-context__input input-context__input--textarea">
-              </textarea>
+                class="input-context__input input-context__input--textarea"></textarea>
             </div>
           </div>
 
@@ -290,8 +288,7 @@
               <textarea
                 id="hook-inv-monetization"
                 name="monetization"
-                class="input-context__input input-context__input--textarea">
-              </textarea>
+                class="input-context__input input-context__input--textarea"></textarea>
             </div>
           </div>
 
@@ -306,8 +303,7 @@
               <textarea
                 id="hook-inv-short-description"
                 name="short_description"
-                class="input-context__input input-context__input--textarea">
-              </textarea>
+                class="input-context__input input-context__input--textarea"></textarea>
             </div>
           </div>
         </fieldset>
@@ -329,8 +325,7 @@
               <textarea
                 id="hook-inv-expertise"
                 name="expertise"
-                class="input-context__input input-context__input--textarea">
-              </textarea>
+                class="input-context__input input-context__input--textarea"></textarea>
             </div>
           </div>
         </fieldset>
