@@ -1,7 +1,8 @@
 .main-header {
+	@include background-size(cover);
+	
 	background-repeat: no-repeat;
-	background-position: center; 
-	background-size: cover;
+	background-position: center;
 
 	.navbar {
 		background-color: transparent;
@@ -87,6 +88,6 @@
 	margin-top: 50px;
 }
 
-.navbar-brand {																																												
+.navbar-brand {
 	height: auto;
 }

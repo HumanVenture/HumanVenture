@@ -78,9 +78,12 @@ body {
   opacity: .9; }
 
 .main-header {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; }
+  background-position: center; }
   .main-header .navbar {
     background-color: transparent;
     border-color: transparent;
