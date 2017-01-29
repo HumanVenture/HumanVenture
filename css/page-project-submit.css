@@ -77,6 +77,9 @@ body {
 .language-switcher-button:hover {
   opacity: .9; }
 
+fieldset {
+  min-width: min-content; }
+
 .main-header {
   -webkit-background-size: cover;
   -moz-background-size: cover;

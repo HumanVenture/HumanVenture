@@ -9,3 +9,8 @@ body {
 }
 
 @import 'css/_unsorted.scss';
+
+// Boostrap rewrites
+fieldset {
+	min-width: min-content;
+}
