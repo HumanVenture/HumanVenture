@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/idea-search-page.css" /> 
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/page-idea-search.css" /> 
 
 <div class="idea-search">
   <div class="idea-button">
