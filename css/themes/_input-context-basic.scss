@@ -1,4 +1,12 @@
 .input-context--theme-basic {
+  .input-context__row {
+      &--align-center {
+        @include respond(medium) {
+          @include align-items(flex-start);
+        }
+      }
+  }
+
   .input-context__label {
     text-transform: uppercase;
     font-weight: normal;

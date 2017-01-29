@@ -10,6 +10,10 @@
 
     &--center {
       @include justify-content(center);
+
+      @include respond(medium) {
+        @include align-items(center);
+      }
     }
 
     &--align-center {
@@ -22,13 +26,14 @@
   }
 
   &__label-wrapper {
-
   }
 
   &__fieldset {
     &--margin {
-      .input-context__row {
-        margin-left: 1rem;
+      @include respondMinExclude(medium) {
+        .input-context__row {
+          margin-left: 1rem;
+        }
       }
     }
   }
@@ -53,6 +58,8 @@
   &__input {
     &--textarea {
       resize: vertical;
+      width: 27rem;
+      height: 8rem;
     }
   }
 
