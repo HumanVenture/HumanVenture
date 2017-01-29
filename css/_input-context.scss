@@ -61,6 +61,14 @@
       width: 27rem;
       height: 8rem;
     }
+
+    &--fixed-width {
+      width: 17rem;
+    }
+
+    &--bold {
+      font-weight: bold;
+    }
   }
 
   &__description {

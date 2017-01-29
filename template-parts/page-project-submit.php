@@ -28,7 +28,11 @@
   </div>
 
   <div class="project-submit__form-wrapper">
-    <div class="project-submit__form project-submit__form--active js-form-conversation">
+    <div class="
+      project-submit__form
+      project-submit__form--conversation
+      project-submit__form--active
+      js-form-conversation">
       <form class="input-context input-context--theme-basic">
         <div class="input-context__row">
           <div class="input-context__label-wrapper">
@@ -41,7 +45,11 @@
             <select
               id="hook-search-type"
               name="search_type"
-              class="input-context__input input-context__input--select">
+              class="
+                input-context__input
+                input-context__input--select
+                input-context__input--fixed-width
+                input-context__input--bold">
               <option>По популярности</option>
             </select>
           </div>
@@ -56,7 +64,11 @@
             <select
               id="hook-direction"
               name="direction"
-              class="input-context__input input-context__input--select">
+              class="
+                input-context__input
+                input-context__input--select
+                input-context__input--fixed-width
+                input-context__input--bold">
               <option><?php echo __('Альтернативная энергетика', 'hv-serikoff'); ?></option>
 							<option><?php echo __('Борьба с бедностью', 'hv-serikoff'); ?></option>
 							<option><?php echo __('Космос', 'hv-serikoff'); ?></option>
@@ -78,7 +90,11 @@
             <select
               id="hook-is-commercial"
               name="is_commercial"
-              class="input-context__input input-context__input--select">
+              class="
+                input-context__input
+                input-context__input--select
+                input-context__input--fixed-width
+                input-context__input--bold">
               <option>Да</option>
             </select>
           </div>
@@ -95,8 +111,12 @@
             <input
               id="hook-cost"
               name="cost"
-              type="text"
-              class="input-context__input input-context__input--text"
+              type="number"
+              min="0"
+              class="
+                input-context__input
+                input-context__input--text
+                input-context__input--fixed-width"
             />
           </div>
         </div>
@@ -112,7 +132,11 @@
             <select
               id="hook-deadline"
               name="deadline"
-              class="input-context__input input-context__input--select">
+              class="
+                input-context__input
+                input-context__input--select
+                input-context__input--fixed-width
+                input-context__input--bold">
               <option>&lt 1 года</option>
             </select>
           </div>
@@ -129,7 +153,11 @@
             <select
               id="hook-scalability"
               name="scalability"
-              class="input-context__input input-context__input--select">
+              class="
+                input-context__input
+                input-context__input--select
+                input-context__input--fixed-width
+                input-context__input--bold">
               <option>нет (локально)</option>
             </select>
           </div>
@@ -145,7 +173,7 @@
               id="hook-author"
               name="author"
               type="text"
-              class="input-context__input input-context__input--text"
+              class="input-context__input input-context__input--text input-context__input--fixed-width"
             />
           </div>
         </div>
@@ -162,7 +190,7 @@
               id="hook-created-at"
               name="created_at"
               type="text"
-              class="input-context__input input-context__input--text"
+              class="input-context__input input-context__input--text input-context__input--fixed-width"
             />
           </div>
         </div>
@@ -177,7 +205,7 @@
               id="hook-country"
               name="country"
               type="text"
-              class="input-context__input input-context__input--text" />
+              class="input-context__input input-context__input--text input-context__input--fixed-width" />
           </div>
         </div>
 
@@ -193,7 +221,7 @@
               id="hook-posts-number"
               name="posts_number"
               type="text"
-              class="input-context__input input-context__input--text" />
+              class="input-context__input input-context__input--text input-context__input--fixed-width" />
           </div>
         </div>
 
@@ -210,7 +238,7 @@
               id="hook-rating"
               name="rating"
               type="text"
-              class="input-context__input input-context__input--text" />
+              class="input-context__input input-context__input--text input-context__input--fixed-width" />
           </div>
         </div>
 
@@ -224,7 +252,7 @@
               id="hook-tags"
               name="tags"
               type="text"
-              class="input-context__input input-context__input--text" />
+              class="input-context__input input-context__input--text input-context__input--fixed-width" />
           </div>
         </div>
 
@@ -238,7 +266,7 @@
       </form>
     </div>
 
-    <div class="project-submit__form js-form-investment">
+    <div class="project-submit__form project-submit__form-investment js-form-investment">
       <form class="input-context input-context--theme-basic">
         <fieldset class="input-context__fieldset input-context__fieldset--margin">
           <legend
