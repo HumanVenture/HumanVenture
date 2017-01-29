@@ -3,7 +3,7 @@
     @include flexbox;
     @include justify-content(space-between);
 
-    @include respond(small) {
+    @include respond(medium) {
       @include flex-direction(column);
     }
 
