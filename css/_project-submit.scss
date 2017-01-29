@@ -29,7 +29,9 @@
     }
 
     &--conversation {
-      padding: 0 15%;
+      @include respondMinExclude(medium) {
+        padding: 0 15%;
+      }
     }
   }
 }
