@@ -48,6 +48,10 @@
     text-align: center;
   }
 
+  &__action-icon {
+    cursor: pointer;
+  }
+
   &__action {
     &--reply {
       .idea-card__action-icon {
