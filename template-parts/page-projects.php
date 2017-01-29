@@ -1,11 +1,15 @@
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/projects.css" /> 
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/page-projects.css" />
 
 <div class="projects">
   <div class="idea-button">
     <button class="idea-button__button">Есть идея!</button>
   </div>
 
-  <div class="projects__header"></div>
+  <div class="section-header">
+    <p class="section-header__dash"></p>
+    <p class="section-header__text">Проекты</p>
+    <p class="section-header__dash"></p>
+  </div>
 
   <div class="projects__grid">
     <div class="idea-grid">
