@@ -36,27 +36,6 @@
       <form class="input-context input-context--theme-basic">
         <div class="input-context__row">
           <div class="input-context__label-wrapper">
-            <label for="hook-search-type" class="input-context__label">
-              Поиск проекта
-            </label>
-          </div>
-
-          <div class="input-context__input-wrapper">
-            <select
-              id="hook-search-type"
-              name="search_type"
-              class="
-                input-context__input
-                input-context__input--select
-                input-context__input--fixed-width
-                input-context__input--bold">
-              <option>По популярности</option>
-            </select>
-          </div>
-        </div>
-
-        <div class="input-context__row">
-          <div class="input-context__label-wrapper">
             <label for="hook-direction" class="input-context__label">Направление</label>
           </div>
 
