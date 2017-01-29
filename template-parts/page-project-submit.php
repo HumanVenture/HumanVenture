@@ -249,7 +249,7 @@
             Общие данные
           </legend>
 
-          <div class="input-context__row">
+          <div class="input-context__row input-context__row--align-center">
             <div class="input-context__label-wrapper">
               <label for="hook-inv-project-name" class="input-context__label">Название проекта</label>
             </div>
@@ -263,7 +263,7 @@
             </div>
           </div>
 
-          <div class="input-context__row">
+          <div class="input-context__row input-context__row--align-center">
             <div class="input-context__label-wrapper">
               <label for="hook-inv-problems" class="input-context__label">
                 Проблемы рынка, решаемые инновацией
@@ -279,7 +279,7 @@
             </div>
           </div>
 
-          <div class="input-context__row">
+          <div class="input-context__row input-context__row--align-center">
             <div class="input-context__label-wrapper">
               <label for="hook-inv-monetization" class="input-context__label">
                 Механизм монетизации
@@ -295,7 +295,7 @@
             </div>
           </div>
 
-          <div class="input-context__row">
+          <div class="input-context__row input-context__row--align-center">
             <div class="input-context__label-wrapper">
               <label for="hook-inv-short-description" class="input-context__label">
                 Суть инновации
@@ -318,7 +318,7 @@
             Защищаемость
           </legend>
 
-          <div class="input-context__row">
+          <div class="input-context__row input-context__row--align-center">
             <div class="input-context__label-wrapper">
               <label for="hook-inv-expertise" class="input-context__label">
                 Есть ли техническое обоснование / экспертиза разработки

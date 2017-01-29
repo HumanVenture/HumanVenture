@@ -1,8 +1,4 @@
 .input-context--theme-basic {
-  .input-context__row {
-    @include align-items(baseline);
-  }
-
   .input-context__label {
     text-transform: uppercase;
     font-weight: normal;

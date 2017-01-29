@@ -2,14 +2,18 @@
   &__row {
     @include flexbox;
     @include justify-content(space-between);
+    @include align-items(baseline);
 
     @include respond(medium) {
       @include flex-direction(column);
     }
 
     &--center {
-      @include flexbox;
       @include justify-content(center);
+    }
+
+    &--align-center {
+      @include align-items(center);
     }
   }
 
