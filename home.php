@@ -7,7 +7,7 @@
 			<?php get_header(); ?>
 		</div>
 		<div class="container home-wrapper">
-			<?php get_template_part('template-parts/project-submit', 'content'); ?>
+			<?php get_template_part('template-parts/page-project-submit', 'content'); ?>
 		</div>
 		<div class="footer-wrapper">
 			<?php get_footer(); ?>

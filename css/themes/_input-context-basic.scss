@@ -21,4 +21,14 @@
       padding: 1.4rem;
     }
   }
+
+  .input-context__legend {
+    color: #44879e;
+    text-transform: uppercase;
+  }
+
+  // theme elements
+  &__general-image {
+    //margin-left: -1rem;
+  }
 }

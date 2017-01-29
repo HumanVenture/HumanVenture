@@ -182,6 +182,12 @@ fieldset {
     justify-content: center; }
 .input-context__row + .input-context__row {
   margin: 1rem 0; }
+.input-context__fieldset--margin .input-context__row {
+  margin-left: 1rem; }
+.input-context__fieldset + .input-context__fieldset {
+  margin-top: 1rem; }
+.input-context__legend {
+  border: 0; }
 .input-context__label {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -212,6 +218,9 @@ fieldset {
     text-transform: uppercase;
     border: 0;
     padding: 1.4rem; }
+.input-context--theme-basic .input-context__legend {
+  color: #44879e;
+  text-transform: uppercase; }
 
 .idea-search {
   margin: 1rem 0; }

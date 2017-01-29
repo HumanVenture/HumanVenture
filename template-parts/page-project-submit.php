@@ -234,8 +234,14 @@
 
     <div class="project-submit__form js-form-investment">
       <form class="input-context input-context--theme-basic">
-        <fieldset class="input-context__fieldset">
-          <legend class="input-context__legend">Общие данные</legend>
+        <fieldset class="input-context__fieldset input-context__fieldset--margin">
+          <legend
+            class="input-context__legend">
+            <img
+              class="input-context--theme-basic__general-image"
+              src="<?php bloginfo('template_directory'); ?>/assets/submit-general.png" />
+            Общие данные
+          </legend>
 
           <div class="input-context__row">
             <div class="input-context__label-wrapper">
@@ -300,8 +306,11 @@
           </div>
         </fieldset>
 
-        <fieldset class="input-context__fieldset">
-          <legend class="input-context__legend">Защищаемость</legend>
+        <fieldset class="input-context__fieldset input-context__fieldset--margin">
+          <legend class="input-context__legend">
+            <img src="<?php bloginfo('template_directory'); ?>/assets/submit-protection.png" />
+            Защищаемость
+          </legend>
 
           <div class="input-context__row">
             <div class="input-context__label-wrapper">

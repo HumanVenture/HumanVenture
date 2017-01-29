@@ -21,6 +21,22 @@
 
   }
 
+  &__fieldset {
+    &--margin {
+      .input-context__row {
+        margin-left: 1rem;
+      }
+    }
+  }
+
+  &__fieldset + &__fieldset {
+    margin-top: 1rem;
+  }
+
+  &__legend {
+    border: 0;
+  }
+
   &__label {
     @include user-select(none);
 
