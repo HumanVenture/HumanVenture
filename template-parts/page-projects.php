@@ -11,6 +11,21 @@
     <p class="section-header__dash"></p>
   </div>
 
+  <div class="projects__search-form">
+    <form>
+      <!-- <img
+        class="projects__search-icon"
+        src="<?php bloginfo('template_directory'); ?>/assets/search-icon.png" /> -->
+      <input
+        class="projects__search-input"
+        type="text"
+        placeholder="Поиск проекта"
+        style="background-image: url('<?php bloginfo('template_directory'); ?>/assets/search-icon.png')" />
+    </form>
+  </div>
+
+  <p class="projects__search-type">По популярности</p>
+
   <div class="projects__grid">
     <div class="idea-grid">
     <?php for($i = 0; $i < 5; $i++): ?>

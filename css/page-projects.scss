@@ -6,6 +6,31 @@
 @import 'css/_section-header.scss';
 
 .projects {
+  margin: 2rem 0;
+  padding: 0 5%;
+
+  &__search-type {
+  }
+
+  &__search-form {
+
+  }
+
+  &__search-input {
+    $iconWidth: 26px;
+    $iconHeight: 30px;
+
+    background: #eaeaea;
+    color: #828282;
+    border: 0;
+    padding: 1rem 0;
+    padding-left: calc(#{$iconWidth} * 2);
+    text-transform: uppercase;
+
+    background-position: calc(#{$iconHeight} / 4) calc(#{$iconHeight} / 4);
+    background-repeat: no-repeat;
+  }
+
   &__grid {
     padding: 0 15%;
   }
