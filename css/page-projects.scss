@@ -4,6 +4,7 @@
 @import 'css/_idea-card.scss';
 @import 'css/_idea-grid.scss';
 @import 'css/_section-header.scss';
+@import 'css/_grid-layout-switch.scss';
 
 .projects {
   margin: 2rem 0;
@@ -13,7 +14,7 @@
   }
 
   &__search-form {
-
+    margin: 2rem 0;
   }
 
   &__search-input {
@@ -32,6 +33,18 @@
   }
 
   &__grid {
-    padding: 0 15%;
+    margin: 0 auto;
+
+    @include respondMinExclude(medium) {
+      $marginBetweenItems: 2rem;
+
+      &--layout-2x2 {
+        width: calc(#{$ideaCardWidth} * 2 + #{$marginBetweenItems});
+      }
+
+      &--layout-3x3 {
+        width: calc(#{$ideaCardWidth} * 3 + #{$marginBetweenItems});
+      }
+    }
   }
 }

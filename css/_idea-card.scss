@@ -1,9 +1,9 @@
+$ideaCardWidth: 275px;
+
 .idea-card {
-  width: 345px;
-  //height: 476px;
   border: 1px solid #6b6b6b;
   // temp
-  width: 275px;
+  width: $ideaCardWidth;
 
   &__category {
     text-align: center;

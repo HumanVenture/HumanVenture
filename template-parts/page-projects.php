@@ -13,9 +13,6 @@
 
   <div class="projects__search-form">
     <form>
-      <!-- <img
-        class="projects__search-icon"
-        src="<?php bloginfo('template_directory'); ?>/assets/search-icon.png" /> -->
       <input
         class="projects__search-input"
         type="text"
@@ -24,9 +21,23 @@
     </form>
   </div>
 
+  <div class="grid-layout-switch">
+    <button class="grid-layout-switch__item">
+      <img
+        class="grid-layout-switch__image"
+        src="<?php bloginfo('template_directory'); ?>/assets/grid-layout-3x3.png" />
+    </button>
+
+    <button class="grid-layout-switch__item">
+      <img
+        class="grid-layout-switch__image"
+        src="<?php bloginfo('template_directory'); ?>/assets/grid-layout-2x2.png" />
+    </button>
+  </div>
+
   <p class="projects__search-type">По популярности</p>
 
-  <div class="projects__grid">
+  <div class="projects__grid projects__grid--layout-3x3">
     <div class="idea-grid">
     <?php for($i = 0; $i < 5; $i++): ?>
       <div class="idea-card">
