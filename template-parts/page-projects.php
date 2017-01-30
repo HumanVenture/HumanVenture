@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/page-projects.css" />
+<script src="<?php bloginfo('template_directory'); ?>/js/grid-layout-switch.js"></script>
 
 <div class="projects">
   <div class="idea-button">
@@ -22,13 +23,21 @@
   </div>
 
   <div class="grid-layout-switch">
-    <button class="grid-layout-switch__item">
+    <button
+      class="grid-layout-switch__item"
+      data-target="projects__grid"
+      data-modifier="projects__grid--layout-2x2"
+      data-action="-">
       <img
         class="grid-layout-switch__image"
         src="<?php bloginfo('template_directory'); ?>/assets/grid-layout-3x3.png" />
     </button>
 
-    <button class="grid-layout-switch__item">
+    <button
+      class="grid-layout-switch__item"
+      data-target="projects__grid"
+      data-modifier="projects__grid--layout-2x2"
+      data-action="+">
       <img
         class="grid-layout-switch__image"
         src="<?php bloginfo('template_directory'); ?>/assets/grid-layout-2x2.png" />
@@ -37,7 +46,7 @@
 
   <p class="projects__search-type">По популярности</p>
 
-  <div class="projects__grid projects__grid--layout-3x3">
+  <div class="projects__grid">
     <div class="idea-grid">
     <?php for($i = 0; $i < 5; $i++): ?>
       <div class="idea-card">

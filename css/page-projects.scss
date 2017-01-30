@@ -38,13 +38,15 @@
     @include respondMinExclude(medium) {
       $marginBetweenItems: 2rem;
 
+      width: calc(#{$ideaCardWidth} * 3 + #{$marginBetweenItems});
+
       &--layout-2x2 {
         width: calc(#{$ideaCardWidth} * 2 + #{$marginBetweenItems});
       }
 
-      &--layout-3x3 {
-        width: calc(#{$ideaCardWidth} * 3 + #{$marginBetweenItems});
-      }
+      // &--layout-3x3 {
+      //   width: calc(#{$ideaCardWidth} * 3 + #{$marginBetweenItems});
+      // }
     }
   }
 }
