@@ -9,13 +9,19 @@
   <div class="idea-search__container">
     <div class="idea-search__search">
       <form class="input-context input-context--theme-basic">
-        <div class="input-context__row">
+        <div class="input-context__row input-context__row--hero">
           <div class="input-context__label-wrapper">
-            <label for="hook-search-type" class="input-context__label">Поиск проекта</label>
+            <label for="hook-search-type" class="input-context__label input-context__label--hero">Поиск проекта</label>
           </div>
 
           <div class="input-context__input-wrapper">
-            <select id="hook-search-type" name="search_type" class="input-context__input input-context__input--select">
+            <select
+            id="hook-search-type"
+            name="search_type"
+            class="
+              input-context__input
+              input-context__input--select
+              input-context__input--hero">
               <option>По популярности</option>
             </select>
           </div>

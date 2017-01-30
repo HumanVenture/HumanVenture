@@ -19,6 +19,11 @@
     &--align-center {
       @include align-items(center);
     }
+
+    &--hero {
+      padding-bottom: 1rem;
+      border-bottom: 1px solid black;
+    }
   }
 
   &__row + &__row {
@@ -50,6 +55,10 @@
     @include user-select(none);
 
     cursor: pointer;
+
+    &--hero {
+      font-size: 1.6rem;
+    }
   }
 
   &__input-wrapper {
@@ -68,6 +77,10 @@
 
     &--bold {
       font-weight: bold;
+    }
+
+    &--hero {
+      font-size: 1.6rem;
     }
   }
 
