@@ -16,7 +16,16 @@
     border-top: 1px solid #4c4c4b;
   }
 
+  &__search {
+    @include respondMinExclude(medium) {
+      @include flex-grow(.3);
+    }
+  }
   &__results {
-    padding: 0 10%;
+    // to-do: dupl
+    @include respondMinExclude(medium) {
+      $marginBetweenItems: 2rem;
+      width: calc(#{$ideaCardWidth} * 2 + #{$marginBetweenItems});
+    }
   }
 }
