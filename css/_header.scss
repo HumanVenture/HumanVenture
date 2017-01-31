@@ -31,6 +31,11 @@
 
 		.login-buttons {
 			@include flex-grow(0);
+
+			.btn {
+				width: 35px;
+				height: 35px;
+			}
 		}
 
 		// to-do
@@ -41,6 +46,17 @@
 	    background: transparent;
 	    border: 1px solid white;
 			text-transform: uppercase;
+			font-size: 14px;
+		}
+
+		.login-button-facebook {
+			font-weight: 700;
+			font-family: 'Helvetica';
+			text-transform: none;
+		}
+
+		.login-button-vkontakte {
+			font-weight: 700;
 		}
 	}
 
