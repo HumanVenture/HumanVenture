@@ -31,9 +31,9 @@
 											onclick="location.href='<?php bloginfo('url'); ?>/wp-login.php?action=wordpress_social_authenticate&mode=login&provider=Vkontakte';">
 								<?php echo __('в', 'hv-serikoff'); ?>
 							</button><br>
-								<button class="main-header__login-button-inner">
-									Вход
-								</button>
+							<button class="main-header__login-button-inner">
+								Вход
+							</button>
 						</span>
 					</div>
 				</div>
@@ -44,6 +44,9 @@
 					</div>
 					<div class="col-xs-4 col-sm-4 col-md-4 col-lg-offset-1 col-lg-3 main-header__t-user-counter">
 						<p class="text-center info info-1"><?php echo __('Зарегистрированных пользователей', 'hv-serikoff'); ?>: <?php echo count(get_users()); ?></p>
+						<button class="main-header__my-projects">
+							Мои проекты
+						</button>
 					</div>
 				</div>
 				<button  class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false">

@@ -58,6 +58,21 @@
 		.login-button-vkontakte {
 			font-weight: 700;
 		}
+
+		.main-header__my-projects {
+			border: 0;
+			background: #0296bc;
+			font-family: 'HelveticaBold';
+			padding: 0.7rem 1.8rem;
+			font-size: 15px;
+			text-transform: uppercase;
+		}
+
+		.main-header__t-user-counter {
+			@include flexbox;
+			@include flex-direction(column);
+			@include align-items(center);
+		}
 	}
 
 	@include respondMinExclude(medium) {
