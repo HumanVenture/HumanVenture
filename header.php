@@ -30,7 +30,10 @@
 											title="<?php echo __('Вход через ВКонтакте', 'hv-serikoff'); ?>"
 											onclick="location.href='<?php bloginfo('url'); ?>/wp-login.php?action=wordpress_social_authenticate&mode=login&provider=Vkontakte';">
 								<?php echo __('в', 'hv-serikoff'); ?>
-							</button>
+							</button><br>
+								<button class="main-header__login-button-inner">
+									Вход
+								</button>
 						</span>
 					</div>
 				</div>

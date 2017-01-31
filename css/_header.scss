@@ -1,6 +1,6 @@
 .main-header {
 	@include background-size(cover);
-	
+
 	background-repeat: no-repeat;
 	background-position: center;
 
@@ -26,6 +26,20 @@
 		.btn {
 			background-color: transparent;
 			border-color: #ffffff;
+			text-transform: uppercase;
+		}
+
+		.login-buttons {
+			@include flex-grow(0);
+		}
+
+		// to-do
+		.main-header__login-button-inner {
+			width: 100%;
+	    margin-top: 1rem;
+	    color: white;
+	    background: transparent;
+	    border: 1px solid white;
 			text-transform: uppercase;
 		}
 	}
