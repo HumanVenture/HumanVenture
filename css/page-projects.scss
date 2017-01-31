@@ -11,6 +11,9 @@
   padding: 0 5%;
 
   &__search-type {
+    text-transform: uppercase;
+    font-family: 'HelveticaLight';
+    font-size: 15px;
   }
 
   &__search-form {
@@ -30,6 +33,9 @@
 
     background-position: calc(#{$iconHeight} / 4) calc(#{$iconHeight} / 4);
     background-repeat: no-repeat;
+
+    font-family: 'HelveticaLight';
+    font-size: 17px;
   }
 
   &__grid {

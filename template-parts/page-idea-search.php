@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/page-idea-search.css" /> 
+<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/page-idea-search.css" />
 
 <div class="idea-search">
   <div class="idea-button">
@@ -21,6 +21,7 @@
             class="
               input-context__input
               input-context__input--select
+              input-context__input--fixed-width
               input-context__input--hero">
               <option>По популярности</option>
             </select>
@@ -33,7 +34,14 @@
           </div>
 
           <div class="input-context__input-wrapper">
-            <select id="hook-direction" name="direction" class="input-context__input input-context__input--select">
+            <select
+              id="hook-direction"
+              name="direction"
+              class="
+                input-context__input
+                input-context__input--select
+                input-context__input--fixed-width
+              ">
               <option>Энергетика</option>
             </select>
           </div>
@@ -45,7 +53,13 @@
           </div>
 
           <div class="input-context__input-wrapper">
-            <select id="hook-is-commercial" name="is_commercial" class="input-context__input input-context__input--select">
+            <select
+              id="hook-is-commercial"
+              name="is_commercial"
+              class="
+                input-context__input
+                input-context__input--select
+                input-context__input--fixed-width">
               <option>Да</option>
             </select>
           </div>
@@ -57,7 +71,14 @@
           </div>
 
           <div class="input-context__input-wrapper">
-            <input id="hook-cost" name="cost" type="text" class="input-context__input input-context__input--text" />
+            <input
+              id="hook-cost"
+              name="cost"
+              type="text"
+              class="
+                input-context__input
+                input-context__input--text
+                input-context__input--fixed-width" />
           </div>
         </div>
 
@@ -67,7 +88,13 @@
           </div>
 
           <div class="input-context__input-wrapper">
-            <select id="hook-deadline" name="deadline" class="input-context__input input-context__input--select">
+            <select
+              id="hook-deadline"
+              name="deadline"
+              class="
+                input-context__input
+                input-context__input--select
+                input-context__input--fixed-width">
               <option>&lt 1 года</option>
             </select>
           </div>
@@ -79,7 +106,13 @@
           </div>
 
           <div class="input-context__input-wrapper">
-            <select id="hook-scalability" name="scalability" class="input-context__input input-context__input--select">
+            <select
+              id="hook-scalability"
+              name="scalability"
+              class="
+                input-context__input
+                input-context__input--select
+                input-context__input--fixed-width">
               <option>нет (локально)</option>
             </select>
           </div>
@@ -91,7 +124,14 @@
           </div>
 
           <div class="input-context__input-wrapper">
-            <input id="hook-author" name="author" type="text" class="input-context__input input-context__input--text" />
+            <input
+              id="hook-author"
+              name="author"
+              type="text"
+              class="
+                input-context__input
+                input-context__input--text
+                input-context__input--fixed-width" />
           </div>
         </div>
 
@@ -101,7 +141,14 @@
           </div>
 
           <div class="input-context__input-wrapper">
-            <input id="hook-created-at" name="created_at" type="text" class="input-context__input input-context__input--text" />
+            <input
+              id="hook-created-at"
+              name="created_at"
+              type="text"
+              class="
+                input-context__input
+                input-context__input--text
+                input-context__input--fixed-width" />
           </div>
         </div>
 
@@ -111,7 +158,14 @@
           </div>
 
           <div class="input-context__input-wrapper">
-            <input id="hook-country" name="country" type="text" class="input-context__input input-context__input--text" />
+            <input
+              id="hook-country"
+              name="country"
+              type="text"
+              class="
+                input-context__input
+                input-context__input--text
+                input-context__input--fixed-width" />
           </div>
         </div>
 
@@ -121,7 +175,14 @@
           </div>
 
           <div class="input-context__input-wrapper">
-            <input id="hook-posts-number" name="posts_number" type="text" class="input-context__input input-context__input--text" />
+            <input
+              id="hook-posts-number"
+              name="posts_number"
+              type="text"
+              class="
+                input-context__input
+                input-context__input--text
+                input-context__input--fixed-width" />
           </div>
         </div>
 
@@ -132,7 +193,14 @@
           </div>
 
           <div class="input-context__input-wrapper">
-            <input id="hook-rating" name="rating" type="text" class="input-context__input input-context__input--text" />
+            <input
+              id="hook-rating"
+              name="rating"
+              type="text"
+              class="
+                input-context__input
+                input-context__input--text
+                input-context__input--fixed-width" />
           </div>
         </div>
 
@@ -142,7 +210,14 @@
           </div>
 
           <div class="input-context__input-wrapper">
-            <input id="hook-tags" name="tags" type="text" class="input-context__input input-context__input--text" />
+            <input
+              id="hook-tags"
+              name="tags"
+              type="text"
+              class="
+                input-context__input
+                input-context__input--text
+                input-context__input--fixed-width" />
           </div>
         </div>
       </form>

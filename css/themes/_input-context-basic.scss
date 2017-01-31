@@ -10,6 +10,11 @@
   .input-context__label {
     text-transform: uppercase;
     font-weight: normal;
+    font-family: 'HelveticaLight';
+
+    &--hero {
+      font-family: 'HelveticaLight';
+    }
   }
 
   .input-context__input {
@@ -19,6 +24,7 @@
 
     &--select {
         padding: .5rem;
+        font-family: 'HelveticaBold';
     }
 
     &--submit {
@@ -27,16 +33,19 @@
       text-transform: uppercase;
       border: 0;
       padding: 1.4rem;
+      font-family: 'HelveticaBold';
     }
 
     &--hero {
       color: #828282;
+      font-family: 'HelveticaMedium';
     }
   }
 
   .input-context__legend {
     color: #44879e;
     text-transform: uppercase;
+    font-family: 'HelveticaBold';
   }
 
   // theme elements
