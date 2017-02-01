@@ -7,8 +7,7 @@
   }
 
   &__got-idea-header {
-    @include font-family('HelveticaBold');
-
+    font-family: 'HelveticaBold', sans-serif;
     text-transform: uppercase;
     color: #0296bc;
     font-size: 30px;
