@@ -10,7 +10,7 @@ $ideaCardWidth: 275px;
     text-transform: uppercase;
     color: #026780;
     margin: 0;
-    font-family: 'HelveticaLight';
+    font-family: 'HelveticaLight', sans-serif;;
 
     // temp
     font-size: 2rem;
@@ -34,11 +34,11 @@ $ideaCardWidth: 275px;
     text-transform: uppercase;
     color: #026780;
     font-size: 1.8rem;
-    font-family: 'HelveticaBold';
+    font-family: 'HelveticaBold', sans-serif;
   }
 
   &__description {
-    font-family: 'HelveticaLight';
+    font-family: 'HelveticaLight', sans-serif;
   }
 
   &__actions {
@@ -75,6 +75,6 @@ $ideaCardWidth: 275px;
   &__action-description,
   &__action-counter {
     margin: 0;
-    font-family: 'HelveticaLight';
+    font-family: 'HelveticaLight', sans-serif;
   }
 }
