@@ -14,4 +14,6 @@
 	}
 
 	add_action('after_setup_theme', 'hv_serikoff_theme_setup');
+
+	Timber::$dirname = array('templates');
 ?>

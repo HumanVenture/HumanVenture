@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html>
-	<?php get_template_part('head'); ?>
+<!DOCTYPE php>
 
-	<body>
-		<div class="header-wrapper">
-			<?php get_header(); ?>
-		</div>
-		<div class="container home-wrapper">
-			<?php get_template_part('template-parts/home', 'content'); ?>
-		</div>
-		<div class="footer-wrapper">
-			<?php get_footer(); ?>
-		</div>
-	</body>
-</html>
+<?php
+Timber::render('home.twig', Timber::get_context());
