@@ -1,0 +1,11 @@
+{% extends "base.twig" %}
+
+{% block content %}
+	<div class="content">
+		<div class="metrics-wrapper">
+			{% metrics %}
+				{% include 'metrics.twig' %}
+			{% endblock %}
+		</div>
+	</div>
+{% endblock %}

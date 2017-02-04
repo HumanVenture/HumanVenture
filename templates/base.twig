@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		{% head %}
+			{% include 'head.twig' %}
+		{% endblock %}
+	</head>
+	{% body %}
+		<body>
+			<header id="main-header">
+				{% block main-header %}
+					{% include 'main-header.twig' %}
+				{% endblock %}
+			</header>
+
+			<section class="content-wrapper" role="main">
+				{% block content %}
+				{% endblock %}
+			</section>
+
+			{% block social-plugins %}
+				<div class="social-plugins-wrapper">
+				</div>
+			{% endblock %}
+
+			{% block main-footer %}
+				<footer id="main-footer">
+					{% include 'main-footer.twig' %}
+				</footer>
+			{% endblock %}
+		</body>
+	{% endblock %}
+</html>
