@@ -1,10 +1,14 @@
 {% extends "base.twig" %}
 
 {% block head %}
+	{{ parent() }}
+
 	<link rel="stylesheet" href="{{ theme.link }}/css/home.css" /> 
 {% endblock %}
 
 {% block content %}
+	{{ parent() }}
+
 	<div class="content">
 		<div class="metrics-wrapper">
 			{% block metrics %}
@@ -15,6 +19,8 @@
 {% endblock %}
 
 {% block social_plugins %}
+	{{ parent() }}
+
 	<div class="social-plugins-wrapper">
 	</div>
 {% endblock %}
