@@ -1,11 +1,15 @@
 {% extends "base.twig" %}
 
 {% block content %}
+	{{ parent() }}
+
 	<div class="content">
 	</div>
 {% endblock %}
 
 {% block social_plugins %}
+	{{ parent() }}
+
 	<div class="social-plugins-wrapper">
 		{% include 'social-plugins.twig' %}
 	</div>
