@@ -1,4 +1,4 @@
-.main-header {
+#main-header {
 	@include background-size(cover);
 
 	background-repeat: no-repeat;
@@ -39,7 +39,7 @@
 		}
 
 		// to-do
-		.main-header__login-button-inner {
+		#main-header__login-button-inner {
 			width: 100%;
 	    margin-top: 1rem;
 	    color: white;
@@ -59,7 +59,7 @@
 			font-weight: 700;
 		}
 
-		.main-header__my-projects {
+		#main-header__my-projects {
 			border: 0;
 			background: #0296bc;
 			font-family: 'HelveticaBold', sans-serif;
@@ -68,7 +68,7 @@
 			text-transform: uppercase;
 		}
 
-		.main-header__t-user-counter {
+		#main-header__t-user-counter {
 			@include flexbox;
 			@include flex-direction(column);
 			@include align-items(center);
