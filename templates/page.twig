@@ -4,6 +4,16 @@
 	{{ parent() }}
 
 	<div class="content page">
+		<article class="page__item">
+			<div class="page__thumbnail">
+				<img class="page__thumbnail-image" src="{{post.thumbnail.src}}" />
+				<div class="page__caption">
+					<p class="page__caption-link"><a href="{{ post.link }}">{{ post.title }}</a></p>
+					<p class="page__caption-date">{{ __('Опубликовано:', 'hv-serikoff') }}{{ post.date }}</p>
+					<section class="page__caption-content">{{ post.content }}</section>
+				</div>
+			</div>
+		</article>
 	</div>
 {% endblock %}
 
