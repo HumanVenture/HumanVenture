@@ -5,10 +5,10 @@
 			{% include 'head.twig' %}
 		{% endblock %}
 	</head>
-	{% block body %}
-		<body>
+	<body>
+		{% block body %}
 			<header id="main-header">
-				{% block main-header %}
+				{% block main_header %}
 					{% include 'main-header.twig' %}
 				{% endblock %}
 			</header>
@@ -18,16 +18,16 @@
 				{% endblock %}
 			</section>
 
-			{% block social-plugins %}
-				<div class="social-plugins-wrapper">
-				</div>
-			{% endblock %}
+			<div class="social-plugins-wrapper">
+				{% block social_plugins %}
+				{% endblock %}
+			</div>
 
-			{% block main-footer %}
-				<footer id="main-footer">
+			<footer id="main-footer">
+				{% block main_footer %}
 					{% include 'main-footer.twig' %}
-				</footer>
-			{% endblock %}
-		</body>
-	{% endblock %}
+				{% endblock %}
+			</footer>
+		{% endblock %}
+	</body>
 </html>
