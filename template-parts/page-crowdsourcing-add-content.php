@@ -74,7 +74,7 @@
 					array(
 						'post_title'    => $title,
 						'post_content'  => $description,
-						'post_category' => array(get_cat_ID(__('Лаборотория идей', 'hv-serikoff')), get_cat_ID($category)),
+						'post_category' => array(get_cat_ID(__('Лаборатория идей', 'hv-serikoff')), get_cat_ID($category)),
 						'post_status'   => 'publish',
 						'meta_input'    => array(
 							'commercialization' => $commercialization,
